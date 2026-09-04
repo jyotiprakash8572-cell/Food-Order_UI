@@ -1,0 +1,92 @@
+.yi{
+    background: linear-gradient(132deg ,red,rgb(243, 127, 127));
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+.container h1{
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(165, 247, 15);
+    color:yellow;
+    font-family:'Times New Roman', Times, serif;
+}
+.container nav{
+    font-size: 30px;
+    justify-content: space-between;
+}
+nav a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 100px;
+   color: #FFF8E7;
+    text-decoration:none;
+}
+nav a:hover{
+    color: rgb(216, 240, 7);
+}
+nav button{
+    font-size:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background: yellow;
+}
+.container span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, orange, white, rgb(8, 245, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.toy{
+    display: flexbox;
+    text-align: center;
+    padding: 28px;
+}
+.toy p{
+    color: rgb(236, 234, 234);
+    font-family:fantasy;
+    font-size: 30px;
+    animation: blink 4s infinite;
+}
+@keyframes blink{
+    0%, 100%{
+        opacity: 1;
+    }
+  50%{
+    opacity: 0;
+  }
+}
+.op{
+    background-color: #FFF8E7;
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgb(146, 146, 88);
+}
+.toy button{
+    position: absolute;
+    height: 60px;
+    border-radius: 10px;
+    background-color: FFF8E7;
+}
+.ty{
+    display: flex;
+    height: 260px;
+    width: 20px;
+    gap: 45px;
+}
+.tc{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 237, 238);
+}
